@@ -1,0 +1,33 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+$ git branch
+* main
+  new-branch
+
+$ git log
+commit 97bf340fb67766140943c595caf4568811fc6c34 (HEAD -> main, origin/main)
+Author: Oleksandr Koss <125351053+Belimoru@users.noreply.github.com>
+Date:   Sat Oct 14 13:55:38 2023 +0300
+
+    Create new text
+
+commit 567444ec245ed6d81c6251e5c7ab24df567e8bd8
+Merge: f9a8a75 f4b36be
+Author: Belimoru <rumiyrocks@gmail.com>
+Date:   Sat Oct 14 13:53:49 2023 +0300
+
+    solved conflict
+
+commit f9a8a75d4d8ba9b736fc1ff1e712627ee9f3ae22
+
+$ git log --merges
+commit 567444ec245ed6d81c6251e5c7ab24df567e8bd8
+Merge: f9a8a75 f4b36be
+Author: Belimoru <rumiyrocks@gmail.com>
+Date:   Sat Oct 14 13:53:49 2023 +0300
+
+    solved conflict
